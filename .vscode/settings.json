@@ -1,0 +1,16 @@
+{
+    "emmet.preferences": {
+        "emmet.includeLanguages": {
+            "javascript": "javascriptreact"
+        }
+    },
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.excludeLanguages": [
+
+        "markdown"
+    ],
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    "emmet.triggerExpansionOnTab": true
+}
