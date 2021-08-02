@@ -45,7 +45,7 @@ function Footer() {
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
               Kangaroo Learning
-              <img src='/images/logo.png' href="/" alt="Logo"/>
+              <img src={require('../images/logo.png').default} href="/" alt="Logo"/>
             </Link>
           </div>
           <small class='website-rights'>Kangaroo Learning © 2021</small>

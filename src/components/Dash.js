@@ -16,7 +16,7 @@ function Dash() {
               path='/About'
             />
             <DashItem
-              src='images/img-2.jpg'
+              src={require('../images/img-2.jpg').default}
               text='A new approach to education'
               label='Discover More'
               path='/services'
@@ -24,13 +24,13 @@ function Dash() {
           </ul>
           <ul className='dash__items'>
             <DashItem
-              src='images/img-4.jpg'
+              src={require('../images/img-4.jpg').default}
               text='Meet The Team'
               label='Get to know us'
               path='/About'
             />
             <DashItem
-              src='images/img-8.jpg'
+              src={require('../images/img-8.jpg').default}
               text='Join our community...'
               label='Keep Up-To-Date'
               path='/sign-up'

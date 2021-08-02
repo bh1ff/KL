@@ -7,7 +7,7 @@ function HeroHome() {
     return (
         <div className='hero-container'>
             {/* FOR VIDEO ON HERO HOME INSTEAD OF IMAGE*/}
-            <video src='/videos/video-1.mp4' autoPlay loop muted />
+            <video src={process.env.PUBLIC_URL + '/videos/video-2.mp4'} autoPlay loop muted />
             <h1> <i>Kangaroo Learning</i> </h1>
             <p> A fully comprehensive learning platform for the 11+</p>
             <div className="hero-btns">
